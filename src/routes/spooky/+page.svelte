@@ -66,12 +66,12 @@
 	}
 
 	const gridHelper = new Three.GridHelper(20, 10)
-	const axisHelper = new Three.AxesHelper(10)
+	const axesHelper = new Three.AxesHelper(10)
 </script>
 
 <Threlte.Canvas rendererParameters={{ antialias: true }}>
 	<Threlte.Object3DInstance object={gridHelper} />
-	<Threlte.Object3DInstance object={axisHelper} />
+	<Threlte.Object3DInstance object={axesHelper} />
 
 	<Threlte.Pass
 		pass={new UnrealBloomPass(new Three.Vector2(1, 1), 4, 1, 0.7)}

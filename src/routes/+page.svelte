@@ -7,7 +7,7 @@
 	import * as Utils from 'three/src/math/MathUtils'
 
 	const gridHelper = new Three.GridHelper(20, 10)
-	const axisHelper = new Three.AxesHelper(10)
+	const axesHelper = new Three.AxesHelper(10)
 
 	const sphere = {
 		position: { x: 0, y: 4, z: 0 },
@@ -28,7 +28,7 @@
 <Threlte.Canvas>
 	<!-- Helpers -->
 	<Threlte.Object3DInstance object={gridHelper} />
-	<Threlte.Object3DInstance object={axisHelper} />
+	<Threlte.Object3DInstance object={axesHelper} />
 
 	<!-- Camera -->
 	<Threlte.PerspectiveCamera position={{ x: 20, y: 20, z: 20 }} fov={50}>
