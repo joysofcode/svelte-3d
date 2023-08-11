@@ -2,7 +2,7 @@
 
 ✍️ https://joyofcode.xyz/introduction-to-3d-with-svelte
 
-Learn how to make a typing game in Svelte.
+Introduction to using 3D in the browser with Svelte.
 
 [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/joysofcode/svelte-3d)
 
